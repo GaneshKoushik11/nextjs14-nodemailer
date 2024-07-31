@@ -1,5 +1,3 @@
-**NextJS14-Nodemailar**
-
 **DEMO** - https://nextjs14-nodemailer.vercel.app/
 
 **Problem Statement**
