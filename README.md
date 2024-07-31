@@ -9,6 +9,7 @@ How to securely implement email sending functionality in a Next.js application u
 **Tech Stack**
 
 1. NextJS14
+2. Typescript
 
 **Implementation Details**
 
