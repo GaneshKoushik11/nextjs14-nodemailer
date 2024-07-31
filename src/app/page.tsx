@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import axios from 'axios';
 import toast from 'react-simple-toasts';
+import Image from "next/image";
 export default function Home(){
     const [fullname, setFullname] = useState("");
     const [email, setEmail] = useState("");
@@ -69,9 +70,9 @@ export default function Home(){
     return(
         <main className="h-full max-w-sm m-auto mt-20">
             <form onSubmit={handleSubmit} className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white">
-                <h1 className="text-2xl font-bold">
-                    Send a message
-                </h1>
+                <div className="m-auto">
+                    <Image src="/images/envelope.webp" width={100} height={100} alt="Nodemailer"></Image>
+                </div>
                 <label htmlFor="fullname" className="text-gray-500 font-light mt-8">
                     Name<span className="text-red-500">*</span>
                 </label>
